@@ -1,0 +1,18 @@
+{
+    "create_repository": {
+      "action_keywords": ["create", "make", "initialize", "start"],
+      "entity_keywords": ["repository", "repo"],
+      "parameters": ["repo_name", "repo_description", "repo_visibility"]
+    },
+    "create_issue": {
+      "action_keywords": ["create", "open", "add"],
+      "entity_keywords": ["issue", "ticket"],
+      "parameters": ["issue_title", "issue_description"]
+    },
+    "add_collaborator": {
+      "action_keywords": ["add", "invite", "share"],
+      "entity_keywords": ["collaborator", "member"],
+      "parameters": ["username", "repo_name"]
+    }
+  }
+  
